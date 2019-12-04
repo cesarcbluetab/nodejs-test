@@ -7,7 +7,7 @@ const express = require('express');
 const app = express();
 
 // Settings
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 8080);
 
 app.get('/', (req, res)=>{
     res.send('iDeveloper') 
