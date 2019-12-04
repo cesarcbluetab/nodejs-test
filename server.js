@@ -10,7 +10,7 @@ const app = express();
 app.set('port', process.env.PORT || 8080);
 
 app.get('/', (req, res)=>{
-    res.send('iDeveloper v0.1') 
+    res.send('iDeveloper v0.2') 
 })
 
 // Starting
