@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     res.send('iDeveloper v0.2')
 })
 app.get('/test', (req, res) => {
-    res.send('iDeveloper v0.3')
+    res.send('iDeveloper v0.2')
 })
 
 // Starting
