@@ -9,8 +9,11 @@ const app = express();
 // Settings
 app.set('port', process.env.PORT || 4000);
 
-app.get('/', (req, res)=>{
-    res.send('iDeveloper v0.2') 
+app.get('/', (req, res) => {
+    res.send('iDeveloper v0.2')
+})
+app.get('/test', (req, res) => {
+    res.send('iDeveloper v0.3')
 })
 
 // Starting
